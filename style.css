@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-body{
-    background-image: url("./images/Digis.jpg")
-}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -54,7 +51,6 @@ h2{
     margin-bottom: 1rem;
     text-decoration: none;
     color: white;
-    /* background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%); */
     background: red;
     border-radius: 20px;
 }
@@ -75,7 +71,7 @@ h2{
 #highscore-btn:hover{
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
 }
-fa-crown{
+fa-bomb{
     font-size: 2.5rem;
     margin-left: 1rem;
 }
