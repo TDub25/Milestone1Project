@@ -8,6 +8,12 @@
     font-family: 'Nova Square', cursive;
 }
 
+body{
+    background-image: url(/images/Digis.jpg)
+    /* Image Credit: https://wallpapercave.com/wp/wp2865161.jpg*/
+
+}
+
 h1{
     font-size: 5.4rem;
     color: white;
