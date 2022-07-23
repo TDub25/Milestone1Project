@@ -42,11 +42,35 @@ let questions = [
         choice3: '2,000lb GBU',
         choice4: '500lb JDAM',
         answer: 1,
+    },
+    {
+        question: 'What is an AIM-120?',
+        choice1: 'Sidewinder Missile',
+        choice2: 'Advanced Medium Range Air to Air Missile',
+        choice3: 'High Speed Anti-Radiation Missile',
+        choice4: 'Joint Standoff Weapon',
+        answer: 2,
+    },
+    {
+        question: 'What weapon(s) can an F-35B carry internally?',
+        choice1: '2,000lb JDAM',
+        choice2: 'AIM-120 AMRAAM',
+        choice3: 'AIM-9 Sidewinder',
+        choice4: 'A and B',
+        answer: 2,
+    },
+    {
+        question: 'What typically has Tritonal explosives?',
+        choice1: 'USMC Bomb Bodies',
+        choice2: 'USMC HIMARS',
+        choice3: 'USN Torpedos',
+        choice4: 'USMC Small Arms',
+        answer: 3,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 7
 
 startGame = () => {
     questionCounter = 0
