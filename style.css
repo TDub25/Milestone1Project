@@ -84,11 +84,12 @@ h2{
 }
 
 #highscore-btn{
-    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
+    /* background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%); */
+    background: red;
 }
 
 #highscore-btn:hover{
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(211, 37, 57, 0.5);
 }
 
 .fa-bomb{
